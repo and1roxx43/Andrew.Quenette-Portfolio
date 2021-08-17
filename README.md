@@ -46,5 +46,5 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 
 ## URL
-- https://and1roxx43.github.io/Andrewz-React-Portfolio/
-- https://github.com/and1roxx43/Andrewz-React-Portfolio
+- https://and1roxx43.github.io/Andrew.Quenette-Portfolio
+- https://github.com/and1roxx43/Andrew.Quenette-Portfolio
