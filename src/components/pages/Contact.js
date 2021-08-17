@@ -8,6 +8,7 @@ export default function Contact() {
     function clearForm(){
         setErrorMessage("");
         setEmail("");
+        setPhone("");
         setPName("");
         setText("");
         //setAMessage("");
@@ -15,6 +16,7 @@ export default function Contact() {
 
     const [pName, setPName] = useState("");
     const [email, setEmail] = useState("");
+    const [phone, setPhone] = useState("");
     const [text, setText] = useState("");
     const [errorMessage, setErrorMessage] = useState("");
     const [aMessage, setAMessage] = useState("");
@@ -29,6 +31,8 @@ export default function Contact() {
             setEmail(inputValue);
         } else if(inputType === "pName") {
             setPName(inputValue);
+        } else if(inputType === "phone") {
+            setPhone(inputValue);
         } else {
             setText(inputValue);
         }
@@ -37,7 +41,7 @@ export default function Contact() {
     const handleFormSubmit = (e) => {
         e.preventDefault();
 
-        if(!email && !text && !pName) {
+        if(!email && !text && !pName && !phone) {
             setErrorMessage("Fill in the form before submitting");
             return;
         }
@@ -49,6 +53,9 @@ export default function Contact() {
             return;
         } else if (!pName) {
             setErrorMessage("Enter a name before continuing");
+            return;
+        } else if (!phone) {
+            setErrorMessage("Provide a phone number before continuing");
             return;
         } else {
             setAMessage(`Your message has been sent ${pName}`);
@@ -77,6 +84,15 @@ export default function Contact() {
                 onChange={handleInputChange}
                 type="email"
                 placeholder="Email"
+                />
+
+<input 
+                className="input"
+                value={phone}
+                name="phone"
+                onChange={handleInputChange}
+                type="text"
+                placeholder="Phone"
                 />
 
                 <textarea
