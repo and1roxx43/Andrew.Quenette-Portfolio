@@ -13,11 +13,11 @@ function App() {
 
     <div className="app-container">
         
-      <Router basename="/Andrew.Quenette-Portfolio">
+      <Router>
       
         <NavMenu className="navbar"/>
         <Switch>
-            <Route exact path="/" component={About} />
+            <Route basename="/Andrew.Quenette-Portfolio" exact path="/" component={About} />
             <Route path="/portfolio" component={Portfolio} />
             <Route path="/contact" component={Contact} />
             <Route path="/resume" component={Resume} />
