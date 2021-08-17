@@ -13,7 +13,7 @@ function App() {
 
     <div className="app-container">
         
-      <Router>
+      <Router basename="/Andrew.Quenette-Portfolio">
       
         <NavMenu className="navbar"/>
         <Switch>
