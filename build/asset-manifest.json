@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/Andrew.Quenette-Portfolio/static/css/main.fad938da.chunk.css",
+    "main.js": "/Andrew.Quenette-Portfolio/static/js/main.897f0821.chunk.js",
+    "main.js.map": "/Andrew.Quenette-Portfolio/static/js/main.897f0821.chunk.js.map",
+    "runtime-main.js": "/Andrew.Quenette-Portfolio/static/js/runtime-main.baa345c8.js",
+    "runtime-main.js.map": "/Andrew.Quenette-Portfolio/static/js/runtime-main.baa345c8.js.map",
+    "static/js/2.7aa9967b.chunk.js": "/Andrew.Quenette-Portfolio/static/js/2.7aa9967b.chunk.js",
+    "static/js/2.7aa9967b.chunk.js.map": "/Andrew.Quenette-Portfolio/static/js/2.7aa9967b.chunk.js.map",
+    "static/js/3.242b8fb8.chunk.js": "/Andrew.Quenette-Portfolio/static/js/3.242b8fb8.chunk.js",
+    "static/js/3.242b8fb8.chunk.js.map": "/Andrew.Quenette-Portfolio/static/js/3.242b8fb8.chunk.js.map",
+    "index.html": "/Andrew.Quenette-Portfolio/index.html",
+    "static/css/main.fad938da.chunk.css.map": "/Andrew.Quenette-Portfolio/static/css/main.fad938da.chunk.css.map",
+    "static/js/2.7aa9967b.chunk.js.LICENSE.txt": "/Andrew.Quenette-Portfolio/static/js/2.7aa9967b.chunk.js.LICENSE.txt",
+    "static/media/Andrew Quenette _CV_2021-22.e55c84d7.pdf": "/Andrew.Quenette-Portfolio/static/media/Andrew Quenette _CV_2021-22.e55c84d7.pdf",
+    "static/media/Andy.8f760045.png": "/Andrew.Quenette-Portfolio/static/media/Andy.8f760045.png",
+    "static/media/Day-scheduler.4ebcdb7c.png": "/Andrew.Quenette-Portfolio/static/media/Day-scheduler.4ebcdb7c.png",
+    "static/media/Food-recipe.5eddcbac.png": "/Andrew.Quenette-Portfolio/static/media/Food-recipe.5eddcbac.png",
+    "static/media/Wecare.14e6bac7.png": "/Andrew.Quenette-Portfolio/static/media/Wecare.14e6bac7.png",
+    "static/media/budget-tracker.e33647fb.png": "/Andrew.Quenette-Portfolio/static/media/budget-tracker.e33647fb.png",
+    "static/media/eTrade.de48e7ed.png": "/Andrew.Quenette-Portfolio/static/media/eTrade.de48e7ed.png",
+    "static/media/quiz.c04c41cb.png": "/Andrew.Quenette-Portfolio/static/media/quiz.c04c41cb.png",
+    "static/media/tech-blog.ea8a6e34.png": "/Andrew.Quenette-Portfolio/static/media/tech-blog.ea8a6e34.png",
+    "static/media/weather-app.b1071fd6.png": "/Andrew.Quenette-Portfolio/static/media/weather-app.b1071fd6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.baa345c8.js",
+    "static/js/2.7aa9967b.chunk.js",
+    "static/css/main.fad938da.chunk.css",
+    "static/js/main.897f0821.chunk.js"
+  ]
+}
